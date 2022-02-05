@@ -1,0 +1,25 @@
+
+.title{
+grid-column: span 1;
+  text-align: center;
+
+}
+
+.title h1, p{
+  text-align: center;
+}
+
+.button-shop {
+  background-color: $white;
+  color: $smoky-black;
+  border: 2px solid $smoky-black;
+}
+
+
+@media only screen and (max-width: 768px){
+  .title{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-top: -120px;
+  }
+}

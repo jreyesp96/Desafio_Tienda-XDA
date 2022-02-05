@@ -1,0 +1,25 @@
+
+  .section-principal{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    margin-top: -30px;
+  }
+
+  
+
+
+
+  @media only screen and (max-width: 768px){
+    .section-principal{
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+  }
+
+  @media only screen and (min-width: 768px){
+    .section-principal img{
+      margin-top: -50px;
+    }
+  }

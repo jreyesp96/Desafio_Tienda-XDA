@@ -1,0 +1,29 @@
+
+.text-vertical{
+  grid-column: span 1;
+  float: right;
+
+
+}
+
+.text-vertical h3{
+  color: $smoky-black;
+  writing-mode: vertical-rl;
+  position: relative;
+  float: right;
+}
+
+@media only screen and (min-width: 768px){
+  .text-vertical{
+    grid-column: span 1;
+    float: right;
+    margin-top: -120px;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .text-vertical{
+    margin-right: -190px;
+    margin-top: -120px;
+  }
+}
